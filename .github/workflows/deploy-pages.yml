@@ -37,8 +37,8 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          VITE_STORY_API_BASE: ${{ vars.VITE_STORY_API_BASE }}
-          VITE_DISABLE_STORY_API: ${{ vars.VITE_STORY_API_BASE == '' && 'true' || 'false' }}
+          VITE_STORY_API_BASE: https://midnight-hospital-api.onrender.com
+          VITE_DISABLE_STORY_API: "false"
 
       - name: Check production readiness
         run: npm run check:prod
