@@ -60,6 +60,14 @@ GitHub 仓库设置里需要把 `Pages -> Build and deployment -> Source` 设为
 
 注意：GitHub Pages 不能运行 Node 服务端，也不能安全保存 DeepSeek key，所以 Pages 版本会关闭真实 AI API，只保留离线剧情和可游玩的规则引擎。完整说明见 [docs/github-pages-deploy.md](/Users/biantongchuangchuanmei/Desktop/游戏2/docs/github-pages-deploy.md)。
 
+要让朋友在线使用真实 AI，把后端部署到 Render，然后在 GitHub 仓库 Actions Variables 里设置：
+
+```text
+VITE_STORY_API_BASE=https://你的-render-服务.onrender.com
+```
+
+Render 部署步骤见 [docs/render-backend-deploy.md](/Users/biantongchuangchuanmei/Desktop/游戏2/docs/render-backend-deploy.md)。
+
 ## 上线前验证
 
 ```bash
