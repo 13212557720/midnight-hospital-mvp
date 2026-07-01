@@ -1,0 +1,27 @@
+:root {
+  color-scheme: dark;
+  --bg: #050607;
+  --bg-elevated: #101315;
+  --panel: rgba(16, 19, 21, 0.9);
+  --panel-solid: #15191b;
+  --border: rgba(216, 232, 232, 0.14);
+  --border-strong: rgba(216, 232, 232, 0.28);
+  --text: #eef6f3;
+  --text-muted: #a7b4b0;
+  --text-dim: #697673;
+  --red: #b94242;
+  --red-hot: #ff6b5f;
+  --green: #75b99c;
+  --amber: #c7a76a;
+  --cyan: #95d6d8;
+  --shadow: 0 24px 70px rgba(0, 0, 0, 0.45);
+  --radius: 8px;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "PingFang SC",
+    "Microsoft YaHei",
+    sans-serif;
+}

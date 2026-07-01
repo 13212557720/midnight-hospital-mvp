@@ -1,0 +1,16 @@
+export const DIFFICULTY_CONFIG = {
+  targetWinRateMin: 0.28,
+  targetWinRateMax: 0.35,
+  initialHp: 10,
+  initialSanity: 8,
+  pollutionLimit: 6,
+  initialTimeSeconds: 300,
+  requiredFragments: 4,
+  perfectFragments: 6,
+  handSize: 3,
+  energyPerNode: 3,
+  nodeDifficulties: [4, 5, 5, 6, 7, 8],
+  finalDifficulty: 8,
+  earlyNoDeathNodeCount: 2,
+  catchUpNodeIndex: 4,
+} as const;
